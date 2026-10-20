@@ -1,0 +1,15 @@
+# 데이터 비공개 (강의 제공 데이터·예측 결과)
+*.csv
+outputs/
+*.pdf
+
+# 학습 부산물
+optuna_tuning.db
+catboost_info/
+모델링_baseline_실행결과.ipynb
+
+# 환경
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
